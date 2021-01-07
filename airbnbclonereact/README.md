@@ -28,3 +28,11 @@ we use **react date range library** to create a beautifull callendar :
 
 - npm i react-date-range
 - npm i date-fns
+
+## Search Page
+
+npm i react-router-dom
+
+- we wrap the app in `Router`
+- because we want render Header an Footer all the time, we let them outside the `Switch`
+- and then we wrap our pages insite `Route`
