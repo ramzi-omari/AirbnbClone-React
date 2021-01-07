@@ -1,25 +1,15 @@
 import "./App.css";
+import Footer from "./Footer";
 import Header from "./Header";
 import Home from "./Home";
+import "./Footer.css";
 
 function App() {
   return (
     <div className="app">
       <Header></Header>
       <Home></Home>
-      {/*1 Home */}
-      {/* 2header */}
-
-      {/*2 Banner */}
-
-      {/* 3search */}
-
-      {/*2 cards */}
-
-      {/* 2footer */}
-
-      {/* 1Search Page */}
-      {/* 2header */}
+      <Footer></Footer>
     </div>
   );
 }
